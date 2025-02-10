@@ -326,10 +326,11 @@ properties:
             type: Enum
             description: |
               The current connection profile state.
-            output: true
             enum_values:
               - 'SERVER_ONLY'
               - 'SERVER_CLIENT'
+              - 'REQUIRED'
+              - 'NONE'
           - name: 'clientKey'
             type: String
             description: |
